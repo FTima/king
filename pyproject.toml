@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "king"
+version = "0.1.0"
+description = ""
+authors = ["ftima <fateme.ahmadif@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+google-cloud-bigquery = "^3.25.0"
+db-dtypes = "^1.2.0"
+scipy = "^1.14.0"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
