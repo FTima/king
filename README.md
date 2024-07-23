@@ -18,8 +18,11 @@ poetry install
 ## code source
 All modules and classes have been implemented in the src package.
 
-# Config
-All onstants and parameters are presented in the config file.
+## Config
+All constants and parameters are presented in the config file.
+
+## Document
+The "King A_B Test Use Case.pdf" document offers further explanation and interpretation of the analysis and results. 
 
 
 
